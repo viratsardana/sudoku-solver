@@ -81,9 +81,11 @@ def add_edge(graph,vertex,same_something):
 	
 	return graph
 
+colored_vertices={}
+
 def add_edges_color(graph,puzzle):
 	
-	colored_vertices={}
+	global colored_vertices
 	
 	for i in range(1,10):
 		for j in range(1,10):
